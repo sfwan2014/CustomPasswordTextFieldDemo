@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1FD2C31F9DBB68009DD038 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FD2C21F9DBB68009DD038 /* AppDelegate.m */; };
+		2B1FD2C61F9DBB68009DD038 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FD2C51F9DBB68009DD038 /* ViewController.m */; };
+		2B1FD2C91F9DBB68009DD038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FD2C71F9DBB68009DD038 /* Main.storyboard */; };
+		2B1FD2CB1F9DBB68009DD038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FD2CA1F9DBB68009DD038 /* Assets.xcassets */; };
+		2B1FD2CE1F9DBB68009DD038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FD2CC1F9DBB68009DD038 /* LaunchScreen.storyboard */; };
+		2B1FD2D11F9DBB68009DD038 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FD2D01F9DBB68009DD038 /* main.m */; };
+		2B1FD2DB1F9DBB68009DD038 /* CustomPasswordTextFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FD2DA1F9DBB68009DD038 /* CustomPasswordTextFieldDemoTests.m */; };
+		2B1FD2E61F9DBB68009DD038 /* CustomPasswordTextFieldDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FD2E51F9DBB68009DD038 /* CustomPasswordTextFieldDemoUITests.m */; };
+		2B1FD2F51F9DBB97009DD038 /* SFPasswordTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FD2F41F9DBB97009DD038 /* SFPasswordTextField.m */; };
+		2B1FD2F81F9DBBF2009DD038 /* SFKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FD2F71F9DBBF2009DD038 /* SFKeyboardView.m */; };
+		2B1FD2FB1F9DBC16009DD038 /* SFKeyboardAccessoryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FD2FA1F9DBC16009DD038 /* SFKeyboardAccessoryButton.m */; };
+		2B1FD2FE1F9DC14E009DD038 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FD2FD1F9DC14E009DD038 /* UIView+Extension.m */; };
+		2B1FD3181F9DC267009DD038 /* c_chaKeyboardButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FD3101F9DC267009DD038 /* c_chaKeyboardButton.png */; };
+		2B1FD3191F9DC267009DD038 /* c_chaKeyboardButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FD3111F9DC267009DD038 /* c_chaKeyboardButton@2x.png */; };
+		2B1FD31A1F9DC267009DD038 /* c_chaKeyboardButtonSel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FD3121F9DC267009DD038 /* c_chaKeyboardButtonSel.png */; };
+		2B1FD31B1F9DC267009DD038 /* c_chaKeyboardButtonSel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FD3131F9DC267009DD038 /* c_chaKeyboardButtonSel@2x.png */; };
+		2B1FD31C1F9DC267009DD038 /* c_number_keyboardDeleteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FD3141F9DC267009DD038 /* c_number_keyboardDeleteButton.png */; };
+		2B1FD31D1F9DC267009DD038 /* c_number_keyboardDeleteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FD3151F9DC267009DD038 /* c_number_keyboardDeleteButton@2x.png */; };
+		2B1FD31E1F9DC267009DD038 /* c_number_keyboardDeleteButtonSel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FD3161F9DC267009DD038 /* c_number_keyboardDeleteButtonSel.png */; };
+		2B1FD31F1F9DC267009DD038 /* c_number_keyboardDeleteButtonSel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FD3171F9DC267009DD038 /* c_number_keyboardDeleteButtonSel@2x.png */; };
+		2B1FD3221F9DD4BF009DD038 /* PasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FD3211F9DD4BF009DD038 /* PasswordInputView.m */; };
+		2B1FD3241F9DD6D2009DD038 /* PasswordInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FD3231F9DD6D2009DD038 /* PasswordInputView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B1FD2D71F9DBB68009DD038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B1FD2B61F9DBB68009DD038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B1FD2BD1F9DBB68009DD038;
+			remoteInfo = CustomPasswordTextFieldDemo;
+		};
+		2B1FD2E21F9DBB68009DD038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B1FD2B61F9DBB68009DD038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B1FD2BD1F9DBB68009DD038;
+			remoteInfo = CustomPasswordTextFieldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B1FD2BE1F9DBB68009DD038 /* CustomPasswordTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPasswordTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1FD2C11F9DBB68009DD038 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B1FD2C21F9DBB68009DD038 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B1FD2C41F9DBB68009DD038 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B1FD2C51F9DBB68009DD038 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B1FD2C81F9DBB68009DD038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B1FD2CA1F9DBB68009DD038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B1FD2CD1F9DBB68009DD038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B1FD2CF1F9DBB68009DD038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1FD2D01F9DBB68009DD038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B1FD2D61F9DBB68009DD038 /* CustomPasswordTextFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomPasswordTextFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1FD2DA1F9DBB68009DD038 /* CustomPasswordTextFieldDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPasswordTextFieldDemoTests.m; sourceTree = "<group>"; };
+		2B1FD2DC1F9DBB68009DD038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1FD2E11F9DBB68009DD038 /* CustomPasswordTextFieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomPasswordTextFieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1FD2E51F9DBB68009DD038 /* CustomPasswordTextFieldDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPasswordTextFieldDemoUITests.m; sourceTree = "<group>"; };
+		2B1FD2E71F9DBB68009DD038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1FD2F31F9DBB97009DD038 /* SFPasswordTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFPasswordTextField.h; sourceTree = "<group>"; };
+		2B1FD2F41F9DBB97009DD038 /* SFPasswordTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFPasswordTextField.m; sourceTree = "<group>"; };
+		2B1FD2F61F9DBBF2009DD038 /* SFKeyboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFKeyboardView.h; sourceTree = "<group>"; };
+		2B1FD2F71F9DBBF2009DD038 /* SFKeyboardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFKeyboardView.m; sourceTree = "<group>"; };
+		2B1FD2F91F9DBC16009DD038 /* SFKeyboardAccessoryButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFKeyboardAccessoryButton.h; sourceTree = "<group>"; };
+		2B1FD2FA1F9DBC16009DD038 /* SFKeyboardAccessoryButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFKeyboardAccessoryButton.m; sourceTree = "<group>"; };
+		2B1FD2FC1F9DC14E009DD038 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2B1FD2FD1F9DC14E009DD038 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2B1FD3101F9DC267009DD038 /* c_chaKeyboardButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_chaKeyboardButton.png; sourceTree = "<group>"; };
+		2B1FD3111F9DC267009DD038 /* c_chaKeyboardButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c_chaKeyboardButton@2x.png"; sourceTree = "<group>"; };
+		2B1FD3121F9DC267009DD038 /* c_chaKeyboardButtonSel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_chaKeyboardButtonSel.png; sourceTree = "<group>"; };
+		2B1FD3131F9DC267009DD038 /* c_chaKeyboardButtonSel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c_chaKeyboardButtonSel@2x.png"; sourceTree = "<group>"; };
+		2B1FD3141F9DC267009DD038 /* c_number_keyboardDeleteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_number_keyboardDeleteButton.png; sourceTree = "<group>"; };
+		2B1FD3151F9DC267009DD038 /* c_number_keyboardDeleteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c_number_keyboardDeleteButton@2x.png"; sourceTree = "<group>"; };
+		2B1FD3161F9DC267009DD038 /* c_number_keyboardDeleteButtonSel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_number_keyboardDeleteButtonSel.png; sourceTree = "<group>"; };
+		2B1FD3171F9DC267009DD038 /* c_number_keyboardDeleteButtonSel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c_number_keyboardDeleteButtonSel@2x.png"; sourceTree = "<group>"; };
+		2B1FD3201F9DD4BF009DD038 /* PasswordInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordInputView.h; sourceTree = "<group>"; };
+		2B1FD3211F9DD4BF009DD038 /* PasswordInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordInputView.m; sourceTree = "<group>"; };
+		2B1FD3231F9DD6D2009DD038 /* PasswordInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordInputView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B1FD2BB1F9DBB68009DD038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FD2D31F9DBB68009DD038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FD2DE1F9DBB68009DD038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B1FD2B51F9DBB68009DD038 = {
+			isa = PBXGroup;
+			children = (
+				2B1FD2C01F9DBB68009DD038 /* CustomPasswordTextFieldDemo */,
+				2B1FD2D91F9DBB68009DD038 /* CustomPasswordTextFieldDemoTests */,
+				2B1FD2E41F9DBB68009DD038 /* CustomPasswordTextFieldDemoUITests */,
+				2B1FD2BF1F9DBB68009DD038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B1FD2BF1F9DBB68009DD038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FD2BE1F9DBB68009DD038 /* CustomPasswordTextFieldDemo.app */,
+				2B1FD2D61F9DBB68009DD038 /* CustomPasswordTextFieldDemoTests.xctest */,
+				2B1FD2E11F9DBB68009DD038 /* CustomPasswordTextFieldDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B1FD2C01F9DBB68009DD038 /* CustomPasswordTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FD2C11F9DBB68009DD038 /* AppDelegate.h */,
+				2B1FD2C21F9DBB68009DD038 /* AppDelegate.m */,
+				2B1FD2C41F9DBB68009DD038 /* ViewController.h */,
+				2B1FD2C51F9DBB68009DD038 /* ViewController.m */,
+				2B1FD2FC1F9DC14E009DD038 /* UIView+Extension.h */,
+				2B1FD2FD1F9DC14E009DD038 /* UIView+Extension.m */,
+				2B1FD2F31F9DBB97009DD038 /* SFPasswordTextField.h */,
+				2B1FD2F41F9DBB97009DD038 /* SFPasswordTextField.m */,
+				2B1FD2F61F9DBBF2009DD038 /* SFKeyboardView.h */,
+				2B1FD2F71F9DBBF2009DD038 /* SFKeyboardView.m */,
+				2B1FD3201F9DD4BF009DD038 /* PasswordInputView.h */,
+				2B1FD3211F9DD4BF009DD038 /* PasswordInputView.m */,
+				2B1FD3231F9DD6D2009DD038 /* PasswordInputView.xib */,
+				2B1FD2F91F9DBC16009DD038 /* SFKeyboardAccessoryButton.h */,
+				2B1FD2FA1F9DBC16009DD038 /* SFKeyboardAccessoryButton.m */,
+				2B1FD30F1F9DC267009DD038 /* SFKeyboardSources */,
+				2B1FD2C71F9DBB68009DD038 /* Main.storyboard */,
+				2B1FD2CA1F9DBB68009DD038 /* Assets.xcassets */,
+				2B1FD2CC1F9DBB68009DD038 /* LaunchScreen.storyboard */,
+				2B1FD2CF1F9DBB68009DD038 /* Info.plist */,
+				2B1FD2D01F9DBB68009DD038 /* main.m */,
+			);
+			path = CustomPasswordTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		2B1FD2D91F9DBB68009DD038 /* CustomPasswordTextFieldDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FD2DA1F9DBB68009DD038 /* CustomPasswordTextFieldDemoTests.m */,
+				2B1FD2DC1F9DBB68009DD038 /* Info.plist */,
+			);
+			path = CustomPasswordTextFieldDemoTests;
+			sourceTree = "<group>";
+		};
+		2B1FD2E41F9DBB68009DD038 /* CustomPasswordTextFieldDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FD2E51F9DBB68009DD038 /* CustomPasswordTextFieldDemoUITests.m */,
+				2B1FD2E71F9DBB68009DD038 /* Info.plist */,
+			);
+			path = CustomPasswordTextFieldDemoUITests;
+			sourceTree = "<group>";
+		};
+		2B1FD30F1F9DC267009DD038 /* SFKeyboardSources */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FD3101F9DC267009DD038 /* c_chaKeyboardButton.png */,
+				2B1FD3111F9DC267009DD038 /* c_chaKeyboardButton@2x.png */,
+				2B1FD3121F9DC267009DD038 /* c_chaKeyboardButtonSel.png */,
+				2B1FD3131F9DC267009DD038 /* c_chaKeyboardButtonSel@2x.png */,
+				2B1FD3141F9DC267009DD038 /* c_number_keyboardDeleteButton.png */,
+				2B1FD3151F9DC267009DD038 /* c_number_keyboardDeleteButton@2x.png */,
+				2B1FD3161F9DC267009DD038 /* c_number_keyboardDeleteButtonSel.png */,
+				2B1FD3171F9DC267009DD038 /* c_number_keyboardDeleteButtonSel@2x.png */,
+			);
+			path = SFKeyboardSources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B1FD2BD1F9DBB68009DD038 /* CustomPasswordTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1FD2EA1F9DBB68009DD038 /* Build configuration list for PBXNativeTarget "CustomPasswordTextFieldDemo" */;
+			buildPhases = (
+				2B1FD2BA1F9DBB68009DD038 /* Sources */,
+				2B1FD2BB1F9DBB68009DD038 /* Frameworks */,
+				2B1FD2BC1F9DBB68009DD038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomPasswordTextFieldDemo;
+			productName = CustomPasswordTextFieldDemo;
+			productReference = 2B1FD2BE1F9DBB68009DD038 /* CustomPasswordTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B1FD2D51F9DBB68009DD038 /* CustomPasswordTextFieldDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1FD2ED1F9DBB68009DD038 /* Build configuration list for PBXNativeTarget "CustomPasswordTextFieldDemoTests" */;
+			buildPhases = (
+				2B1FD2D21F9DBB68009DD038 /* Sources */,
+				2B1FD2D31F9DBB68009DD038 /* Frameworks */,
+				2B1FD2D41F9DBB68009DD038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B1FD2D81F9DBB68009DD038 /* PBXTargetDependency */,
+			);
+			name = CustomPasswordTextFieldDemoTests;
+			productName = CustomPasswordTextFieldDemoTests;
+			productReference = 2B1FD2D61F9DBB68009DD038 /* CustomPasswordTextFieldDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B1FD2E01F9DBB68009DD038 /* CustomPasswordTextFieldDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1FD2F01F9DBB68009DD038 /* Build configuration list for PBXNativeTarget "CustomPasswordTextFieldDemoUITests" */;
+			buildPhases = (
+				2B1FD2DD1F9DBB68009DD038 /* Sources */,
+				2B1FD2DE1F9DBB68009DD038 /* Frameworks */,
+				2B1FD2DF1F9DBB68009DD038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B1FD2E31F9DBB68009DD038 /* PBXTargetDependency */,
+			);
+			name = CustomPasswordTextFieldDemoUITests;
+			productName = CustomPasswordTextFieldDemoUITests;
+			productReference = 2B1FD2E11F9DBB68009DD038 /* CustomPasswordTextFieldDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B1FD2B61F9DBB68009DD038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = DBC;
+				TargetAttributes = {
+					2B1FD2BD1F9DBB68009DD038 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					2B1FD2D51F9DBB68009DD038 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B1FD2BD1F9DBB68009DD038;
+					};
+					2B1FD2E01F9DBB68009DD038 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B1FD2BD1F9DBB68009DD038;
+					};
+				};
+			};
+			buildConfigurationList = 2B1FD2B91F9DBB68009DD038 /* Build configuration list for PBXProject "CustomPasswordTextFieldDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B1FD2B51F9DBB68009DD038;
+			productRefGroup = 2B1FD2BF1F9DBB68009DD038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B1FD2BD1F9DBB68009DD038 /* CustomPasswordTextFieldDemo */,
+				2B1FD2D51F9DBB68009DD038 /* CustomPasswordTextFieldDemoTests */,
+				2B1FD2E01F9DBB68009DD038 /* CustomPasswordTextFieldDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B1FD2BC1F9DBB68009DD038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FD3241F9DD6D2009DD038 /* PasswordInputView.xib in Resources */,
+				2B1FD2CE1F9DBB68009DD038 /* LaunchScreen.storyboard in Resources */,
+				2B1FD3191F9DC267009DD038 /* c_chaKeyboardButton@2x.png in Resources */,
+				2B1FD31D1F9DC267009DD038 /* c_number_keyboardDeleteButton@2x.png in Resources */,
+				2B1FD31F1F9DC267009DD038 /* c_number_keyboardDeleteButtonSel@2x.png in Resources */,
+				2B1FD31E1F9DC267009DD038 /* c_number_keyboardDeleteButtonSel.png in Resources */,
+				2B1FD31C1F9DC267009DD038 /* c_number_keyboardDeleteButton.png in Resources */,
+				2B1FD31B1F9DC267009DD038 /* c_chaKeyboardButtonSel@2x.png in Resources */,
+				2B1FD31A1F9DC267009DD038 /* c_chaKeyboardButtonSel.png in Resources */,
+				2B1FD3181F9DC267009DD038 /* c_chaKeyboardButton.png in Resources */,
+				2B1FD2CB1F9DBB68009DD038 /* Assets.xcassets in Resources */,
+				2B1FD2C91F9DBB68009DD038 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FD2D41F9DBB68009DD038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FD2DF1F9DBB68009DD038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B1FD2BA1F9DBB68009DD038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FD2C61F9DBB68009DD038 /* ViewController.m in Sources */,
+				2B1FD2F51F9DBB97009DD038 /* SFPasswordTextField.m in Sources */,
+				2B1FD2D11F9DBB68009DD038 /* main.m in Sources */,
+				2B1FD2FE1F9DC14E009DD038 /* UIView+Extension.m in Sources */,
+				2B1FD3221F9DD4BF009DD038 /* PasswordInputView.m in Sources */,
+				2B1FD2C31F9DBB68009DD038 /* AppDelegate.m in Sources */,
+				2B1FD2FB1F9DBC16009DD038 /* SFKeyboardAccessoryButton.m in Sources */,
+				2B1FD2F81F9DBBF2009DD038 /* SFKeyboardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FD2D21F9DBB68009DD038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FD2DB1F9DBB68009DD038 /* CustomPasswordTextFieldDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FD2DD1F9DBB68009DD038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FD2E61F9DBB68009DD038 /* CustomPasswordTextFieldDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B1FD2D81F9DBB68009DD038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B1FD2BD1F9DBB68009DD038 /* CustomPasswordTextFieldDemo */;
+			targetProxy = 2B1FD2D71F9DBB68009DD038 /* PBXContainerItemProxy */;
+		};
+		2B1FD2E31F9DBB68009DD038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B1FD2BD1F9DBB68009DD038 /* CustomPasswordTextFieldDemo */;
+			targetProxy = 2B1FD2E21F9DBB68009DD038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B1FD2C71F9DBB68009DD038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1FD2C81F9DBB68009DD038 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B1FD2CC1F9DBB68009DD038 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1FD2CD1F9DBB68009DD038 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B1FD2E81F9DBB68009DD038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B1FD2E91F9DBB68009DD038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B1FD2EB1F9DBB68009DD038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJFG2BWYM4;
+				INFOPLIST_FILE = CustomPasswordTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daibaicai.CustomPasswordTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B1FD2EC1F9DBB68009DD038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJFG2BWYM4;
+				INFOPLIST_FILE = CustomPasswordTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daibaicai.CustomPasswordTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B1FD2EE1F9DBB68009DD038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJFG2BWYM4;
+				INFOPLIST_FILE = CustomPasswordTextFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daibaicai.CustomPasswordTextFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomPasswordTextFieldDemo.app/CustomPasswordTextFieldDemo";
+			};
+			name = Debug;
+		};
+		2B1FD2EF1F9DBB68009DD038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJFG2BWYM4;
+				INFOPLIST_FILE = CustomPasswordTextFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daibaicai.CustomPasswordTextFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomPasswordTextFieldDemo.app/CustomPasswordTextFieldDemo";
+			};
+			name = Release;
+		};
+		2B1FD2F11F9DBB68009DD038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJFG2BWYM4;
+				INFOPLIST_FILE = CustomPasswordTextFieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daibaicai.CustomPasswordTextFieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomPasswordTextFieldDemo;
+			};
+			name = Debug;
+		};
+		2B1FD2F21F9DBB68009DD038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJFG2BWYM4;
+				INFOPLIST_FILE = CustomPasswordTextFieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daibaicai.CustomPasswordTextFieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomPasswordTextFieldDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B1FD2B91F9DBB68009DD038 /* Build configuration list for PBXProject "CustomPasswordTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1FD2E81F9DBB68009DD038 /* Debug */,
+				2B1FD2E91F9DBB68009DD038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B1FD2EA1F9DBB68009DD038 /* Build configuration list for PBXNativeTarget "CustomPasswordTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1FD2EB1F9DBB68009DD038 /* Debug */,
+				2B1FD2EC1F9DBB68009DD038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B1FD2ED1F9DBB68009DD038 /* Build configuration list for PBXNativeTarget "CustomPasswordTextFieldDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1FD2EE1F9DBB68009DD038 /* Debug */,
+				2B1FD2EF1F9DBB68009DD038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B1FD2F01F9DBB68009DD038 /* Build configuration list for PBXNativeTarget "CustomPasswordTextFieldDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1FD2F11F9DBB68009DD038 /* Debug */,
+				2B1FD2F21F9DBB68009DD038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B1FD2B61F9DBB68009DD038 /* Project object */;
+}
